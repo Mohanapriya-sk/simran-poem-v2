@@ -462,8 +462,8 @@ const grain = new Grain(el);
 $('.buttons_poet').click(function (e) {
     e.preventDefault(); // Prevent default link behavior
     const poetContent = `
-        <h1 style="margin-bottom:0">Simran</h1><br/><p style="margin-top:0">Learn more about the poet <strong></strong></p>
-        <h1 style="margin-bottom:0">Mohana</h1><br/><p style="margin-top:0">Learn more about the poet <strong></strong></p>
+        <h1 style="margin-bottom:0">Simran</h1><br/><p style="margin-top:0">Learn more about the simran.. <strong></strong></p>
+        <h1 style="margin-bottom:0">Mohana</h1><br/><p style="margin-top:0">Learn more about the mohana.. <strong></strong></p>
         
     `;
     openPopup('About Us', poetContent);
