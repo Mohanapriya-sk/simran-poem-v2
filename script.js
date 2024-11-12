@@ -278,6 +278,7 @@ let isPipClickRunning = false; // Flag to prevent multiple clicks
 $("body").on("click", ".pip", function () {
     if (isPipClickRunning) {
         console.warn("Pip click is already running, ignoring further clicks.");
+        window.location.reload();
         return; // Prevent further execution
     }
 
